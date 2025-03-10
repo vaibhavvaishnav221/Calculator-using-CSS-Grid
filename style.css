@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: grid;
+    width: 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 15px;
+}
+
+.numbers {
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 6px 6px #e1d9d9;
+    transition: all 100ms;
+}
+
+.numbers:active{
+    box-shadow: none;
+    color: #FF2DF1;
+
+}
