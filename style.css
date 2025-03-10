@@ -1,4 +1,4 @@
-body{
+body {
     background-color: black;
 }
 
@@ -17,8 +17,6 @@ body{
 }
 
 .numbers {
-    width: 100px;
-    height: 100px;
     color: black;
     border-radius: 15px;
     background-color: white;
@@ -30,8 +28,7 @@ body{
     transition: all 100ms;
 }
 
-.numbers:active{
+.numbers:active {
     box-shadow: none;
     color: #FF2DF1;
-
 }
